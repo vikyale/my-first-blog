@@ -1,0 +1,21 @@
+Inicia el entorno virtual ejecutando:
+
+myvenv\Scripts\activate
+
+Crear una aplicacion : 
+python manage.py startapp blog
+
+Crear tablas para los modelos en tu base de datos:
+python manage.py makemigrations blog
+
+Django preparó un archivo de migración que ahora tenemos que aplicar a nuestra base de datos. 
+Escribe:
+
+python manage.py migrate blog
+
+
+Para iniciar sesión, se debe crear un superusuario :
+
+python manage.py createsuperuser
+
+(myvenv) C:\Users\Name\djangogirls> python manage.py createsuperuser
